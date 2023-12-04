@@ -1,0 +1,22 @@
+package com.navegador;
+
+public class NavegadornaInternet implements navegador{
+
+    public static void main(String[] args) { 
+        NavegadornaInternet navegador = new NavegadornaInternet(); 
+        
+        navegador.exibirPagina();
+        navegador.AdicionarNovaAba();
+        navegador.atualizarPagina();
+    } 
+   
+    public void exibirPagina(){
+    System.out.println("A Página escolhida esta em exibição");
+    };
+    public void AdicionarNovaAba(){
+    System.out.println("Nova aba de pesquisa aberta");
+    };
+    public void atualizarPagina(){
+    System.out.println("Realizando atualização da Pagina de Internet");
+    }
+}   

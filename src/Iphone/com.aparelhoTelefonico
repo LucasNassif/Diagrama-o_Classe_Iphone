@@ -1,0 +1,21 @@
+package iphone;
+
+public class aparelhoTelefonico implements aparelho{
+
+    public static void main(String[] args) { 
+        aparelhoTelefonico aparelho = new aparelhoTelefonico();
+        aparelho.ligar();
+        aparelho.atender();
+        aparelho.iniciarCorreioVoz();
+    } 
+   
+    public void ligar(){
+    System.out.println("Ligando...");
+    };
+    public void atender(){
+    System.out.println("Pessoa Atendeu");
+    };
+    public void iniciarCorreioVoz(){
+    System.out.println("Deixe uma mensagem após o sinal");
+    }
+}   

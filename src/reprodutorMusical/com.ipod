@@ -1,0 +1,21 @@
+package reprodutormusica;
+
+public class com.ipod implements reprodutor{
+
+    public static void main(String[] args) { 
+        com.ipod reprodutor = new reprodutor();
+        reprodutor.tocar();
+        reprodutor.pausar();
+        reprodutor.selecionarMusica();
+    } 
+   
+    public void tocar(){
+    System.out.println("Tocando musica (x)");
+    };
+    public void pausar(){
+    System.out.println("Musica Pausada");
+    };
+    public void selecionarMusica(){
+    System.out.println("Selecione a musica que deseja escutar");
+    }
+}   
